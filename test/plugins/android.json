@@ -1,18 +1,18 @@
 {
-  "prepare_queue": {
-    "installed": [],
-    "uninstalled": []
-  },
-  "config_munge": {
-    "files": {}
-  },
-  "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.realdealagency.notifyapp"
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
     },
-    "onesignal-cordova-plugin": {
-      "PACKAGE_NAME": "com.realdealagency.notifyapp"
-    }
-  },
-  "dependent_plugins": {}
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.realdealagency.notifyapp"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.realdealagency.notifyapp"
+        }
+    },
+    "dependent_plugins": {}
 }

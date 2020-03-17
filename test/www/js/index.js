@@ -34,10 +34,9 @@ var app = {
 // For Intel XDK and please add this to your app.js.
 
 document.addEventListener('deviceready', function () {
-    alert("yes");
   // Enable to debug issues.
-  window.plugins.OneSignal.setLogLevel({logLevel: 6, visualLevel: 0});
-  
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+alert("yes");
   var notificationOpenedCallback = function(jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
   };
