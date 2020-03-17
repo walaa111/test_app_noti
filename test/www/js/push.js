@@ -10,7 +10,7 @@ document.addEventListener('deviceready', function () {
   };
 
   window.plugins.OneSignal
-    .startInit("1:718898784100:android:af6b7bc18d2fc55519fc71")
+    .startInit("e8834973-2c12-4c02-9c94-d09baa7e8d7f")
     .handleNotificationOpened(notificationOpenedCallback)
     .endInit();
 }, false);
