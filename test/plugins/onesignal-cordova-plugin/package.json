@@ -39,7 +39,8 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/onesignal-cordova-plugin/-/onesignal-cordova-plugin-2.8.4.tgz",
   "_shasum": "da46021e6cea449d301e9f6478a5c6da809c103f",
