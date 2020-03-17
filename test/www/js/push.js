@@ -2,7 +2,7 @@
 // For Intel XDK and please add this to your app.js.
 
 document.addEventListener('deviceready', function () {
-    alert("yes")
+    alert("yes");
   // Enable to debug issues.
   window.plugins.OneSignal.setLogLevel({logLevel: 6, visualLevel: 0});
   
