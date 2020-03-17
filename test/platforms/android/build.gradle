@@ -17,7 +17,21 @@
 */
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+///
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.4, 0.99.99]'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+///
 buildscript {
     repositories {
         google()
@@ -29,9 +43,19 @@ buildscript {
         // in the individual module build.gradle files
 
         classpath 'com.android.tools.build:gradle:3.3.0'
+
+            implementation 'com.onesignal:OneSignal:[3.11.2, 3.99.99]'
     }
 }
-
+android {
+   defaultConfig {
+      manifestPlaceholders = [
+          onesignal_app_id: 'e8834973-2c12-4c02-9c94-d09baa7e8d7f',
+          // Project number pulled from dashboard, local value is ignored.
+          onesignal_google_project_number: 'REMOTE'
+      ]
+    }
+ }
 allprojects {
     repositories {
         google()
