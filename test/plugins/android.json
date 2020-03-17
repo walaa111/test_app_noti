@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.realdealagency.notifyapp"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.realdealagency.notifyapp"
     }
   },
   "dependent_plugins": {}
