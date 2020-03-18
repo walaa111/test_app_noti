@@ -99,6 +99,7 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "../onesignal-cordova-plugin/notifyapp-build-extras-onesignal.gradle"
+apply from: "../cordova-android-play-services-gradle-release/notifyapp-cordova-android-play-services-gradle-release.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
