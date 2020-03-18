@@ -42,7 +42,7 @@ alert("yes");
   };
 
   window.plugins.OneSignal
-    .startInit("e8834973-2c12-4c02-9c94-d09baa7e8d7f")
+    .startInit("8ae6aeb7-2245-41ab-bfc6-5b8e6da3f75c")
     .handleNotificationOpened(notificationOpenedCallback)
     .endInit();
 }, false);
