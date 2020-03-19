@@ -37,6 +37,9 @@ document.addEventListener('deviceready', function () {
   // Enable to debug issues.
   // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
 alert("yes");
+//The following options are available with increasingly more information:
+//NONE, FATAL, ERROR, WARN, INFO, DEBUG, VERBOSE
+OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
   var notificationOpenedCallback = function(jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
   };
